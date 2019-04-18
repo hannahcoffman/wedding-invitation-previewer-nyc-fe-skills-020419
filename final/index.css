@@ -1,6 +1,6 @@
 .header {
-  font-family: Montserrat; 
-  font-size:30px;
+font-family: 'Dancing Script', cursive;
+  font-size:40px;
   font-weight: bold;
   text-align: center;
   background-color: #D9A6A1;
@@ -12,20 +12,20 @@
 
 .header-2 {
   background-color: #F3D1C8;
-  font-family: Montserrat;
+  font-family: 'Raleway', sans-serif;
   font-size:20px;
   text-align: center;
 }
 
 .header-3 {
   background-color: #F3D1C8;
-  font-family: Montserrat;
+  font-family: 'Raleway', sans-serif;
   font-size:20px;
   text-align: center;
 }
 
 .button {
-  font-family: Montserrat;
+  font-family: 'Raleway', sans-serif;
   font-size:20px;
   border-radius:8px;
   padding-top: 1px;
@@ -42,6 +42,7 @@
   align-items:flex-end;
   margin:10px;
   justify-content:space-evenly;
+  font-family: 'Raleway', sans-serif;
 }
 
 .button:hover {
@@ -61,7 +62,7 @@
 
 
 .form {
-   font-family: Montserrat;
+  font-family: 'Raleway', sans-serif;
   font-size:20px;
   display:flex;
   flex-direction:column;
@@ -72,10 +73,11 @@
   border-radius:8px;
   padding-top: 1px;
   padding-bottom:1px;
+
 }
 
 .box {
-  width:130px;
+  width:60%;
   height:25px;
   border-radius:10px;
 }
@@ -83,14 +85,14 @@
 .template {
   position:absolute;
   text-align:center;
-  height:80%;
+  height:70%;
   background-repeat:no-repeat;
   background-size: contain;
   background-position:center;
   width:90%;
   justify-content: center;
   margin-top: 30px;
-  border: solid #D9A6A1;
+  border:solid #D9A6A1;
   margin-bottom:200px;
 }
 
@@ -98,14 +100,14 @@
  font-family: 'Merienda', cursive;
  font-size:20px;
  text-align:center;
- padding-top:150px;
+ padding-top:5px;
 
 }
 
 .formalText {
  font-family: 'Great Vibes', cursive;
  font-size:20px;
- padding-top:100px;
+ padding-top:5px;
  text-align:center;
 
 }
@@ -113,7 +115,7 @@
 .artDecoText {
   font-family: 'Amatic SC', cursive;
   font-size: 30px;
-  padding-top:100px;
+  padding-top:5px;
   text-align:center;
 }
 
@@ -122,6 +124,14 @@
   background-color: #E5D9D3;
   /*display:flex;*/
   /*flex-direction:row;*/
+}
+
+.header {
+font-family: 'Dancing Script', cursive;
+  font-size:50px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #D9A6A1;
 }
 
 
@@ -143,17 +153,18 @@
   align-items:flex-end;
   margin:10px;
   justify-content:center;
+  padding:10px;
 }
 
 
 .form {
     flex-basis: 50%;
-    font-family: Montserrat;
+   font-family: 'Raleway', sans-serif;
     font-size:20px;
 }
 
 .box {
-  width:130px;
+  width:50%;
   height:25px;
   border-radius:10px;
 }
@@ -163,13 +174,7 @@
 }
 
 .desktop {
-  /*display:flex;*/
-  /*flex-direction:column;*/
-  /*flex-wrap: wrap;*/
-  /*justify-content: center;*/
-  /*align-items: center;*/
-  /*flex-template-column-areas:*/
-  /*"template" "form"*/
+
   display:grid;
   grid-template-columns: repeat(2, 33.3%); 
   grid-template-rows:700px;
@@ -184,31 +189,11 @@
   border: 5px #f7f7fc solid;
 }
 
-/*.template {*/
-/*  position:absolute;*/
-/*  text-align:center;*/
-/*  height:50%;*/
-/*  background-repeat:no-repeat;*/
-/*  background-size: contain;*/
-/*  background-position:center;*/
-/*  width:33.33%;*/
-/*  justify-content: center;*/
-/*  margin-top: 30px;*/
-/*  border: solid #D9A6A1;*/
-/*  margin-bottom:200px;*/
-/*}*/
-
 
 .child-2 {
   width:50%;
   height:100%;
-  /*display:flex;*/
-  /*flex-direction:column;*/
-  /*flex-wrap: wrap;*/
-  /*justify-content: center;*/
-  /*align-items: center;*/
-  /*flex-template-column-areas:*/
-  /*"template"*/
+
 }
 
 #templateChange {
@@ -221,16 +206,6 @@
   width: 45%;
 }
   
-/*  .child-1 {*/
-/*    width:50%;*/
-/*    display:flex;*/
-/*    flex-direction:column;*/
-/*    flex-wrap: wrap;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*    height:700px;*/
-/*    margin:5px auto;*/
-/*}*/
 
 .container {
   background-color: #E5D9D3;
@@ -239,18 +214,6 @@
 }
 
 }
-/*}*/
-
-/*.template {*/
-/*  position:absolute;*/
-/*  text-align:center;*/
-/*  height: 900px;*/
-/*  background-image: url("https://i.ibb.co/tbgWJBZ/blank-wedding-invitation-card-designs-empty-black-dgfitness-co-732x1024.jpg");*/
-/*  background-repeat: no-repeat;*/
-/*  background-size: contain;*/
-/*  background-position:center;*/
-/*  width: 500px;*/
-/*}*/
 
 
 .springText {
